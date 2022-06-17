@@ -1,0 +1,23 @@
+{
+  "name": "playwright_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerXXXy/playwright_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NerXXXy/playwright_test/issues"
+  },
+  "homepage": "https://github.com/NerXXXy/playwright_test#readme",
+  "dependencies": {
+    "playwright": "^1.22.2"
+  }
+}
