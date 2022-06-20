@@ -25,6 +25,20 @@ const {chromium} = require('playwright');
     const popularTagsCount = await page.$$eval('.tag-default', el => el.length)
     console.log('Popular tags: ' + popularTagsCount)
 
+
+
+    const content = await page.textContent('.navbar-brand')
+    console.log('content: ' + content)
+
+    const text = await page.innerText('.navbar-brand')
+    console.log('text: ' + text)
+
+    const html = await page.innerHTML('.feed-toggle')
+    console.log('html: ' + html)
+
+    const href = await page.getAttribute('.navbar-brand', 'href')
+    console.log('href: ' + href)
+
     await browser.close()
 
 
