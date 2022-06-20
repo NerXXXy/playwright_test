@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/NerXXXy/playwright_test#readme",
   "dependencies": {
+    "expect": "^28.1.1",
     "playwright": "^1.22.2"
   }
 }
