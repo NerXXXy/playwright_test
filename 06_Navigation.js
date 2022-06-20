@@ -5,10 +5,10 @@ const {expect} = require('expect');
 
 
     const browser = await chromium.launch({ headless:false , slowMo:50})
-    const context = await browser.newContext()
+    const context = await browserhttps://react-redux.realworld.io/#/login.newContext()
     const page = await context.newPage()
 
-    await page.goto('https://react-redux.realworld.io/#/login')
+    await page.goto('')
     const title = await page.title()
     expect(title).toBe('Conduit')
 
