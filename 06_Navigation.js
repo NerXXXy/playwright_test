@@ -5,7 +5,7 @@ const {expect} = require('expect');
 
 
     const browser = await chromium.launch({ headless:false , slowMo:50})
-    const context = await browserhttps://react-redux.realworld.io/#/login.newContext()
+    const context = await browser('https://react-redux.realworld.io/#/login.newContext()')
     const page = await context.newPage()
 
     await page.goto('')
