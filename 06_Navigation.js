@@ -32,4 +32,5 @@ const {expect} = require('expect');
     await page.reload()
 
     await browser.close()
+
 }) ()
